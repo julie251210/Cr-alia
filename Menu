@@ -80,7 +80,7 @@ rose.html
 </head>
 <body style="margin:0;">
 
-<img src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53"
+<img src="rose.jpg"
      style="width:100%; height:100vh; object-fit:cover;">
 
 </body>
@@ -98,7 +98,7 @@ bleu.html
 </head>
 <body style="margin:0;">
 
-<img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c"
+<img src="bleu.jpg"
      style="width:100%; height:100vh; object-fit:cover;">
 
 </body>
@@ -115,7 +115,7 @@ bordeaux.html
 </head>
 <body style="margin:0;">
 
-<img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d"
+<img src="bordeaux.jpg"
      style="width:100%; height:100vh; object-fit:cover;">
 
 </body>
