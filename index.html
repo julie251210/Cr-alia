@@ -1,122 +1,71 @@
-index.html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Crealia</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: pink;
-        }
-
-        header {
-            text-align: center;
-            padding: 30px;
-        }
-
-        h1 {
-            font-size: 50px;
-        }
-
-        h2 {
-            font-weight: normal;
-        }
-
-        .menu {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 200px;
-            height: 100%;
-            background-color: #fff;
-            padding-top: 20px;
-        }
-
-        .menu select {
-            width: 90%;
-            margin: 10px;
-            padding: 10px;
-        }
-    </style>
+    <title>Mon site</Crealia>    
+<h2>Là où naissent vos idées</h2>
 </head>
 <body>
 
-<div class="menu">
-    <select onchange="changerPage(this.value)">
-        <option value="">Choisir un style</option>
-        <option value="rose.html">rose</option>
-        <option value="bleu.html">bleu</option>
-        <option value="bordeaux.html">rouge bordeaux</option>
-    </select>
-</div>
+<h1>Menu</h1>
 
-<header>
-    <h1>Crealia</h1>
-    <h2>là où naissent vos idées</h2>
-</header>
-
-<script>
-function changerPage(page) {
-    if(page !== "") {
-        window.location.href = page;
-    }
-}
-</script>
+<select onchange="location = this.value;">
+    <option value="">-- Choisir une couleur --</option>
+    <option value="rose.html">Rose</option>
+    <option value="bleu.html">Bleu</option>
+    <option value="bordeaux.html">Bordeaux</option>
+</select>
 
 </body>
 </html>
-
-
-rose.html
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Style Rose</title>
+    <title>Rose</title>
 </head>
-<body style="margin:0;">
+<body>
 
-<img src="IMG_0511.jpeg"
-     style="width:100%; height:100vh; object-fit:cover;">
+<h1>Page Rose</h1>
+
+<img src="IMG_0511.jpeg" alt="Rose" style="width:100%; max-width:800px;">
+
+<br><br>
+<a href="index.html">Retour au menu</a>
 
 </body>
 </html>
-
-
-bleu.html
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Style Bleu</title>
+    <title>Bleu</title>
 </head>
-<body style="margin:0;">
+<body>
 
-<img src="IMG_0510.jpeg"
-     style="width:100%; height:100vh; object-fit:cover;">
+<h1>Page Bleu</h1>
+
+<img src=IMG_0510.jpeg" alt="Bleu" style="width:100%; max-width:800px;">
+
+<br><br>
+<a href="index.html">Retour au menu</a>
 
 </body>
 </html>
-
-bordeaux.html
- 
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Style Rouge Bordeaux</title>
+    <title>Bordeaux</title>
 </head>
-<body style="margin:0;">
+<body>
 
-<img src="IMG_0509.jpeg"
-     style="width:100%; height:100vh; object-fit:cover;">
+<h1>Page Bordeaux</h1>
+
+<img src="IMG_0509.jpeg" alt="Bordeaux" style="width:100%; max-width:800px;">
+
+<br><br>
+<a href="index.html">Retour au menu</a>
 
 </body>
 </html>
