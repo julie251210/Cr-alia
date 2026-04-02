@@ -10,19 +10,24 @@
             text-align: center;
             font-family: Arial, sans-serif;
         }
-<h1>Crealia</h1>
-<h2>Là où naissent vos idées</h2>
+
         h1 {
             color: #c2185b;
+            margin-top: 30px;
         }
 
         h2 {
             color: #880e4f;
+            margin-bottom: 20px;
         }
 
-        IMG_0514.jpeg {
-            width: 150px;
-            margin-top: 20px;
+        /* Image centrée */
+        .logo {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
 
         select {
@@ -35,10 +40,14 @@
 
 <body>
 
-<!-- Logo -->
+<!-- Titre au-dessus -->
+<h1>Crealia</h1>
+<h2>Là où naissent vos idées</h2>
+
+<!-- Image centrée -->
 <img src="images/IMG_0514.jpeg" alt="Logo" class="logo">
 
-
+<!-- Menu en dessous -->
 <select onchange="location = this.value;">
     <option value="">-- Choisir une couleur --</option>
     <option value="rose.html">Rose</option>
